@@ -1,31 +1,31 @@
 # DSCI_6004_02-FINAL-PROJECT by Amani Kambham and Lakshmi Sai Kishore Savarapu
 
-Project: EMOTION CLASSIFICATION OF TWEETS USING NATURAL LANGUAGE PROCESSING
+# Project: EMOTION CLASSIFICATION OF TWEETS USING NATURAL LANGUAGE PROCESSING
 
 
-Overview:
+# Overview:
 
 This Natural Language Processing project aims to identify the emotion of the given text sentence using various Natural Language Processing Techniques and networks. The project explores and compares the performance of few different NLP models built using Vanilla Recurrent Neural Network, Long Short Term Memory, Gated Recurrent Unit, and Bidirectional Vanilla Recurrent Neural Network. Another objective of this project is to build models using the same networks but by training them by feeding the input in the reverse order. This technique is implemented to check if there is any improvement in the performance of the model by training it in the reverse order.
 
 
-Project Components:
+# Project Components:
 
 
-Dataset:
+# Dataset:
 
 5 V’s of Data; Volume, Variety, Velocity, Veracity, Value are checked to ensure right set of data is collected for the problem statement. The dataset has 40,000 samples and 13 emotions with tweet_id, sentiment, content as features. It is a labeled and structured dataset.
 
 Dataset link:  https://www.kaggle.com/datasets/pashupatigupta/emotion-detection-from-text
 
 
-Pre-Processing of Dataset:
+# Pre-Processing of Dataset:
 
 Some of the Text cleaning and pre-processing like Word Tokenization, Label encoding of the target variable, removal of punctuations, finding number of unique words in the document, padding of the input sentences, etc; are the techniques performed to make the process smooth and effective. 
 
 
 
 
-Natural Language Processing Models:
+# Natural Language Processing Models:
 
 Vanilla Recurrent Neural Network: A Vanilla Recurrent Neural Network (RNN) is a fundamental type of RNN that is particularly suited for processing sequences of data, such as text for sentiment classification.
 
@@ -37,7 +37,7 @@ Bidirectional Vanilla RNN: A Bidirectional Vanilla RNN combines the traditional 
 
 
 
-Process 1 (step by step):
+# Process 1 (step by step):
 
 The implementation is done on Google Colab platform.
 
@@ -65,7 +65,7 @@ Comparing the performance of all the models.
 
 
 
-Process 2 for training the models with reversed text sentences(step by step):
+# Process 2 for training the models with reversed text sentences(step by step):
 
 The implementation is done on Google Colab platform.
 
@@ -97,6 +97,6 @@ Comparing the performance of all the models with the models built during the pro
 
 
 
-Conclusion:
+# Conclusion:
 
 This project offers a comprehensive exploration of EMOTION CLASSIFICATION OF TWEETS USING NATURAL LANGUAGE PROCESSING, providing a valuable resource for researchers and students interested in Natural Language Processing, Text processing, etc. The comparison of different models offers insights into their strengths and weaknesses, guiding future research in the field. The well-documented code and usage instructions ensure accessibility and reproducibility for other researchers and enthusiasts.
