@@ -5,7 +5,7 @@
 
 # Overview:
 
-This Natural Language Processing project aims to identify the emotion of the given text sentence using various Natural Language Processing Techniques and networks. The project explores and compares the performance of few different NLP models built using Vanilla Recurrent Neural Network, Long Short Term Memory, Gated Recurrent Unit, and Bidirectional Vanilla Recurrent Neural Network. Another objective of this project is to build models using the same networks but by training them by feeding the input in the reverse order. This technique is implemented to check if there is any improvement in the performance of the model by training it in the reverse order.
+This Natural Language Processing project aims to identify the emotion of the given text sentence using various Natural Language Processing Techniques and networks. The project explores and compares the performance of few different NLP models built using Vanilla Recurrent Neural Network, Long Short Term Memory, Gated Recurrent Unit, and Bidirectional Vanilla Recurrent Neural Network. Another objective of this project is to build models using the same networks but by training them by feeding the input in the reverse order. This technique is implemented to check if there is any improvement in the performance of the model by training it in the reverse order. Stacked networks using the same units mentioned above were built to implement the above task for better performance.
 
 
 # Project Components:
@@ -34,6 +34,8 @@ Long Short Term Memory: Long Short-Term Memory (LSTM) networks are an advanced t
 Gated Recurrent Unit: Gated Recurrent Units (GRUs) are a type of recurrent neural network (RNN) architecture, introduced as a simplified alternative to Long Short-Term Memory (LSTM) networks. They have gained popularity in various natural language processing (NLP) tasks, including sentiment classification, due to their ability to efficiently model sequential data and capture long-term dependencies with fewer parameters than LSTMs.
 
 Bidirectional Vanilla RNN: A Bidirectional Vanilla RNN combines the traditional structure of a Vanilla Recurrent Neural Network (RNN) with bidirectional processing of input sequences. This approach allows the network to have both forward and backward information about the sequence at every point, enhancing its ability to capture context and improving performance on tasks like sentiment classification.
+
+Stacked networks: By layering multiple instances of neural networks on top of each other—Stacked Vanilla RNN, Stacked LSTM, Stacked GRU, and Stacked Bidirectional RNN—we aim to amplify the models' capacity to learn from complex patterns and dependencies in the data. This approach, applied in conjunction with both traditional and reverse-order sentence inputs.
 
 
 
